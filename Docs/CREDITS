@@ -1,0 +1,45 @@
+		               Turbolift
+                              Version 2.0
+                               March 2005
+	   (C) 2001-2005 Rupert Scammell <sbcglobal.net!rupe>
+                       GNU General Public License
+
+
+This project would not have been possible without the help of the
+following people ---
+
+Contributors:
+
+Rupert Scammell <sbcglobal.net!rupe>, is the original
+author, maintainer and mad scientist behind this application.
+
+Greg Brown <pobox.com!justgreg>, has provided valuable design advice,
+server hacking genius, and lots of encouragement throughout the entire
+process.
+
+Robey Pointer <lag.net!robey> developed the threaded play function (tplay_mp3())
+in the MP3View module, and contributed design and usability advice during the
+early stages of development.
+
+James Burgett <accrc.org!accrc> for contributing development and production
+systems and hardware to the project, courtesy of the Alameda County Computer
+Resource Center (http://www.accrc.org).
+
+Jed Parsons <ilm.com!jedp> for having the patience and interest to beta test 
+this version of the software.
+
+Thanks also to:
+
+- Ben Wilson <thelocust.org!ben>, for the pyCFontz LCD API
+- Eduardo Roldan <adinet.com.uy!trazor> for MP3 ID3 tag extraction module. 
+- comp.lang.python people (esp. Donn Cave, Alex Martelli, Guido van Rossum)
+- The festival-talk mailing list
+- The Festival Speech Synthesis System team
+- The CMU Sphinx II speech recognition system team
+- Everyone who provided comments and suggestions during early test drives.
+
+
+P.S.  user@domain.tld == domain.tld!user (anti-spam measure.  Spam bots probably
+don't try and gather UUCP style addresses anymore :-P )
+
+

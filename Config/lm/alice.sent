@@ -1,0 +1,600 @@
+<s> LIKE </s>
+<s> SAME </s>
+<s> JUST </s>
+<s> BUT </s>
+<s> THE </s>
+<s> AND </s>
+<s> NOT </s>
+<s> OF </s>
+<s> BY </s>
+<s> IN </s>
+<s> IT </s>
+<s> A </s>
+<s> AGAIN </s>
+<s> THIS </s>
+<s> TO </s>
+<s> WITH </s>
+<s> WHICH </s>
+<s> WHILE </s>
+<s> AT </s>
+<s> IS </s>
+<s> AM </s>
+<s> AN </s>
+<s> AS </s>
+<s> TO </s>
+<s> SO </s>
+<s> FROM </s>
+<s> FOR </s>
+<s> THAT </s>
+<s> OR </s>
+<s> IF </s>
+<s> CAN </s>
+<s> ALL </s>
+<s> THEN </s>
+<s> WE </s>
+<s> THEM </s>
+<s> THEY </s>
+<s> HERE </s>
+<s> THERE </s>
+<s> THESE </s>
+<s> MAY </s>
+<s> ARE </s>
+<s> BE </s>
+<s> HAVE </s>
+<s> WERE </s>
+<s> WAS </s>
+<s> WITH </s>
+<s> SOME </s>
+<s> EACH </s>
+<s> FEW </s>
+<s> MANY </s>
+<s> WOULD </s>
+<s> HAVE </s>
+<s> ONLY </s>
+<s> GOOD </s>
+<s> BAD </s>
+<s> VERY </s>
+<s> WELL </s>
+<s> TRY </s>
+<s> ELL CEE DEE </s>
+<s> EMM PEE THREE </s>
+<s> MUSIC </s>
+<s> STEREO </s>
+<s> RADIO </s>
+<s> SONG </s>
+<s> SONGS </s>
+<s> TRACK </s>
+<s> TRACKS </s>
+<s> ALBUM </s>
+<s> ARTIST </s>
+<s> VOLUME </s>
+<s> EQUALIZER </s>
+<s> PLAYER </s>
+<s> PLAYLIST </s>
+<s> TIME </s>
+<s> DATE </s>
+<s> NUMBER </s>
+<s> AMOUNT </s>
+<s> DAY </s>
+<s> NIGHT </s>
+<s> BASS </s>
+<s> TREBLE </s>
+<s> MID </s>
+<s> RANGE </s>
+<s> HELP </s>
+<s> SYSTEM </s>
+<s> COMPUTER </s>
+<s> APPLICATION </s>
+<s> SERVICE </s>
+<s> MODULE </s>
+<s> STATE </s>
+<s> PROFILE </s>
+<s> USER </s>
+<s> PERSON </s>
+<s> ME </s>
+<s> YOU </s>
+<s> I </s>
+<s> PASSENGER </s>
+<s> DRIVER </s>
+<s> MODE </s>
+<s> OPTION </s>
+<s> MENU </s>
+<s> ITEM </s>
+<s> RESOURCE </s>
+<s> FIELD </s>
+<s> PAGE </s>
+<s> SCREEN </s>
+<s> BUTTON </s>
+<s> LIGHT </s>
+<s> BRIGHT </s>
+<s> BRIGHTNESS </s>
+<s> DARK </s>
+<s> DARKNESS </s>
+<s> VOICE </s>
+<s> UNIT </s>
+<s> POWER </s>
+<s> CHANNEL </s>
+<s> VOLTAGE </s>
+<s> DATA </s>
+<s> STATUS </s>
+<s> NOTE </s>
+<s> THING </s>
+<s> SOUND </s>
+<s> LEVEL </s>
+<s> TEMPERATURE </s>
+<s> INSIDE </s>
+<s> OUTSIDE </s>
+<s> JOKE </s>
+<s> FORTUNE </s>
+<s> PASSWORD </s>
+<s> HOME </s>
+<s> WORK </s>
+<s> PICTURE </s>
+<s> CAMERA </s>
+<s> NEWS </s>
+<s> SETTINGS </s>
+<s> RUPERT </s>
+<s> GREG </s>
+<s> JED </s>
+<s> DAN </s>
+<s> MATTHEW </s>
+<s> STEVE </s>
+<s> MARK </s>
+<s> LUCY </s>
+<s> SHARON </s>
+<s> PAUL </s>
+<s> DAVID </s>
+<s> SAM </s>
+<s> ROBERT </s>
+<s> JOHN </s>
+<s> JACK </s>
+<s> PATRICK </s>
+<s> ANNE </s>
+<s> MICHAEL </s>
+<s> CAR </s>
+<s> TRUNK </s>
+<s> HOOD </s>
+<s> ENGINE </s>
+<s> BATTERY </s>
+<s> IGNITION </s>
+<s> SPEED </s>
+<s> MIRROR </s>
+<s> WINDOW </s>
+<s> HEATER </s>
+<s> AIR CONDITIONER </s>
+<s> SEAT </s>
+<s> HEADLIGHT </s>
+<s> COCKPIT </s>
+<s> WHEEL </s>
+<s> CABIN </s>
+<s> INTERIOR </s>
+<s> EXTERIOR </s>
+<s> LIGHTS </s>
+<s> DISTANCE </s>
+<s> ROAD </s>
+<s> STREET </s>
+<s> AVENUE </s>
+<s> CIRCLE </s>
+<s> HIGHWAY </s>
+<s> LANE </s>
+<s> EXPRESSWAY </s>
+<s> BOULEVARD </s>
+<s> INTERSECTION </s>
+<s> TRAFFIC </s>
+<s> JAM </s>
+<s> LANE </s>
+<s> SPEED </s>
+<s> ARE PEE EMM </s>
+<s> FUEL </s>
+<s> GAS </s>
+<s> PETROL </s>
+<s> TRIP </s>
+<s> MILEAGE </s>
+<s> RANGE </s>
+<s> MILE </s>
+<s> KILOMETER </s>
+<s> FOOT </s>
+<s> METER </s>
+<s> YARD </s>
+<s> INCH </s>
+<s> CENTIMETER </s>
+<s> GALLON </s>
+<s> LITER </s>
+<s> POUND </s>
+<s> KILOGRAM </s>
+<s> SAN FRANCISCO </s>
+<s> MARIN COUNTY </s>
+<s> MOUNTAIN VIEW </s>
+<s> SAN JOSE </s>
+<s> REDWOOD CITY </s>
+<s> SAN RAFAEL </s>
+<s> BELVEDERE </s>
+<s> SAUSALITO </s>
+<s> LARKSPUR </s>
+<s> CORTE MADERA </s>
+<s> FAIRFAX </s>
+<s> SAN ANSELMO </s>
+<s> NOVATO </s>
+<s> KENT </s>
+<s> ROSS </s>
+<s> PALO ALTO </s>
+<s> BELMONT </s>
+<s> FOSTER CITY </s>
+<s> PRESIDIO </s>
+<s> FORT POINT </s>
+<s> STANFORD </s>
+<s> OAKLAND </s>
+<s> BERKELEY </s>
+<s> PETALUMA </s>
+<s> MONDAY </s>
+<s> TUESDAY </s>
+<s> WEDNESDAY </s>
+<s> THURSDAY </s>
+<s> FRIDAY </s>
+<s> SATURDAY </s>
+<s> SUNDAY </s>
+<s> JANUARY </s>
+<s> FEBRUARY </s>
+<s> MARCH </s>
+<s> APRIL </s>
+<s> MAY </s>
+<s> JUNE </s>
+<s> JULY </s>
+<s> AUGUST </s>
+<s> SEPTEMBER </s>
+<s> OCTOBER </s>
+<s> NOVEMBER </s>
+<s> DECEMBER </s>
+<s> O CLOCK </s>
+<s> DAWN </s>
+<s> MORNING </s>
+<s> AFTERNOON </s>
+<s> DUSK </s>
+<s> EVENING </s>
+<s> NIGHT </s>
+<s> SECOND </s>
+<s> MINUTE </s>
+<s> HOUR </s>
+<s> DAY </s>
+<s> WEEK </s>
+<s> FORTNIGHT </s>
+<s> MONTH </s>
+<s> YEAR </s>
+<s> DECADE </s>
+<s> CENTURY </s>
+<s> BEFORE </s>
+<s> AFTER </s>
+<s> TODAY </s>
+<s> TOMORROW </s>
+<s> YESTERDAY </s>
+<s> WEEKDAY </s>
+<s> WEEKEND </s>
+<s> NOW </s>
+<s> LATER </s>
+<s> EARLIER </s>
+<s> LATE </s>
+<s> EARLIER </s>
+<s> SNOW </s>
+<s> ICE </s>
+<s> COOL </s>
+<s> CLOUDY </s>
+<s> OVERCAST </s>
+<s> SUNNY </s>
+<s> RAINING </s>
+<s> SLEET </s>
+<s> FOG </s>
+<s> WEATHER </s>
+<s> INCREASE </s>
+<s> DECREASE </s>
+<s> LOWER </s>
+<s> RAISE </s>
+<s> SET </s>
+<s> MUTE </s>
+<s> PAUSE </s>
+<s> LOOP </s>
+<s> REPEAT </s>
+<s> PLAY </s>
+<s> START </s>
+<s> STOP </s>
+<s> TURN </s>
+<s> ACTIVATE </s>
+<s> DEACTIVATE </s>
+<s> ADD </s>
+<s> REMOVE </s>
+<s> CHANGE </s>
+<s> LIST </s>
+<s> DO </s>
+<s> DID </s>
+<s> STARTUP </s>
+<s> SHUTDOWN </s>
+<s> GO </s>
+<s> RUN </s>
+<s> HALT </s>
+<s> FIND </s>
+<s> SEARCH </s>
+<s> LOAD </s>
+<s> UNLOAD </s>
+<s> ADD </s>
+<s> SUBTRACT </s>
+<s> INSERT </s>
+<s> REMOVE </s>
+<s> LISTEN </s>
+<s> HEAR </s>
+<s> SPEAK </s>
+<s> NAVIGATE </s>
+<s> LOCATE </s>
+<s> RETRIEVE </s>
+<s> CONTAIN </s>
+<s> MUTE </s>
+<s> SILENCE </s>
+<s> UNMUTE </s>
+<s> SET </s>
+<s> CREATE </s>
+<s> DESTROY </s>
+<s> PLACE </s>
+<s> NAME </s>
+<s> DIM </s>
+<s> ANSWER </s>
+<s> CONNECT </s>
+<s> DISCONNECT </s>
+<s> SHIFT </s>
+<s> MARK </s>
+<s> TAG </s>
+<s> CHECK </s>
+<s> SWITCH </s>
+<s> CHANGE </s>
+<s> MOVE </s>
+<s> SAVE </s>
+<s> DELETE </s>
+<s> SEE </s>
+<s> KNOW </s>
+<s> SHOW </s>
+<s> DISPLAY </s>
+<s> DARKEN </s>
+<s> LIGHTEN </s>
+<s> GIVE </s>
+<s> READ </s>
+<s> PROVIDE </s>
+<s> IDENTIFY </s>
+<s> AUTHENTICATE </s>
+<s> VERIFY </s>
+<s> REMEMBER </s>
+<s> STORE </s>
+<s> SLEEP </s>
+<s> REDUCE </s>
+<s> REPORT </s>
+<s> ON </s>
+<s> OFF </s>
+<s> OKAY </s>
+<s> CONNECTED </s>
+<s> DISCONNECTED </s>
+<s> FOUND </s>
+<s> AVAILABLE </s>
+<s> UNAVAILABLE </s>
+<s> RANDOM </s>
+<s> SEQUENTIAL </s>
+<s> OOPS </s>
+<s> UP </s>
+<s> DOWN </s>
+<s> NEXT </s>
+<s> PREVIOUS </s>
+<s> BEFORE </s>
+<s> AFTER </s>
+<s> LAST </s>
+<s> LEFT </s>
+<s> RIGHT </s>
+<s> FIRST </s>
+<s> LAST </s>
+<s> FORWARD </s>
+<s> BACK </s>
+<s> MORE </s>
+<s> LESS </s>
+<s> NORTH </s>
+<s> SOUTH </s>
+<s> EAST </s>
+<s> WEST </s>
+<s> NEW </s>
+<s> OLD </s>
+<s> LOW </s>
+<s> MEDIUM </s>
+<s> HIGH </s>
+<s> QUIET </s>
+<s> LOUD </s>
+<s> ONE </s>
+<s> TWO </s>
+<s> THREE </s>
+<s> FOUR </s>
+<s> FIVE </s>
+<s> SIX </s>
+<s> SEVEN </s>
+<s> EIGHT </s>
+<s> NINE </s>
+<s> ZERO </s>
+<s> TEN </s>
+<s> ELEVEN </s>
+<s> TWELVE </s>
+<s> THIRTEEN </s>
+<s> FOURTEEN </s>
+<s> FIFTEEN </s>
+<s> SIXTEEN </s>
+<s> SEVENTEEN </s>
+<s> EIGHTEEN </s>
+<s> NINETEEN </s>
+<s> TWENTY </s>
+<s> THIRTY </s>
+<s> FORTY </s>
+<s> FIFTY </s>
+<s> SIXTY </s>
+<s> SEVENTY </s>
+<s> EIGHTY </s>
+<s> NINETY </s>
+<s> HUNDRED </s>
+<s> THOUSAND </s>
+<s> MILLION </s>
+<s> BILLION </s>
+<s> FIRST </s>
+<s> SECOND </s>
+<s> THIRD </s>
+<s> FOURTH </s>
+<s> FIFTH </s>
+<s> SIXTH </s>
+<s> SEVENTH </s>
+<s> EIGHTH </s>
+<s> NINTH </s>
+<s> TENTH </s>
+<s> PLEASE </s>
+<s> THANKS </s>
+<s> THANK </s>
+<s> THANK YOU </s>
+<s> HELLO </s>
+<s> HEY </s>
+<s> HI </s>
+<s> GOODBYE </s>
+<s> WHO </s>
+<s> WHAT </s>
+<s> WHEN </s>
+<s> WHERE </s>
+<s> WHY </s>
+<s> HOW </s>
+<s> YES </s>
+<s> YEAH </s>
+<s> YAH </s>
+<s> SURE </s>
+<s> NO </s>
+<s> NOPE </s>
+<s> NAH </s>
+<s> POSITIVE </s>
+<s> AFFIRMATIVE </s>
+<s> NEGATIVE </s>
+<s> TURN ON </s>
+<s> TURN OFF </s>
+<s> TURN ON THE EMM PEE THREE PLAYER </s>
+<s> TURN OFF THE EMM PEE THREE PLAYER </s>
+<s> TURN ON THE STEREO </s>
+<s> TURN OFF THE STEREO </s>
+<s> TURN ON THE RADIO </s>
+<s> TURN OFF THE RADIO </s>
+<s> START THE EMM PEE THREE PLAYER </s>
+<s> STOP THE EMM PEE THREE PLAYER </s>
+<s> STARTUP THE EMM PEE THREE PLAYER </s>
+<s> SHUTDOWN THE EMM PEE THREE PLAYER </s>
+<s> PLAY A </s>
+<s> PLAY A RANDOM SONG </s>
+<s> PLAY THIS </s>
+<s> PLAY THIS SONG </s>
+<s> PLAY THIS TRACK </s>
+<s> PLAY THAT </s>
+<s> PLAY THAT SONG </s>
+<s> PLAY THAT TRACK </s>
+<s> STOP PLAYING </s>
+<s> STOP PLAYING THIS SONG </s>
+<s> STOP PLAYING THIS TRACK </s>
+<s> PLAY THE </s>
+<s> NEXT SONG </s>
+<s> PREVIOUS SONG </s>
+<s> LAST SONG </s>
+<s> FIRST SONG </s>
+<s> NEXT TRACK </s>
+<s> PREVIOUS TRACK </s>
+<s> LAST TRACK </s>
+<s> FIRST TRACK </s>
+<s> PLAY THE NEXT SONG </s>
+<s> PLAY THE PREVIOUS SONG </s>
+<s> PLAY THE FIRST SONG </s>
+<s> PLAY THE LAST SONG </s>
+<s> PLAY THE NEXT TRACK </s>
+<s> PLAY THE PREVIOUS TRACK </s>
+<s> PLAY THE FIRST TRACK </s>
+<s> PLAY THE LAST TRACK </s>
+<s> GO TO THE </s>
+<s> GO TO THE NEXT SONG </s>
+<s> GO TO THE PREVIOUS SONG </s>
+<s> GO TO THE FIRST SONG </s>
+<s> GO TO THE LAST SONG </s>
+<s> GO TO THE NEXT TRACK </s>
+<s> GO TO THE PREVIOUS TRACK </s>
+<s> GO TO THE FIRST TRACK </s>
+<s> GO TO THE LAST TRACK </s>
+<s> GO TO </s>
+<s> GO TO NEXT SONG </s>
+<s> GO TO PREVIOUS SONG </s>
+<s> GO TO FIRST SONG </s>
+<s> GO TO LAST SONG </s>
+<s> GO FORWARD </s>
+<s> GO BACK </s>
+<s> GO FORWARD TEN SONGS </s>
+<s> GO BACK TEN SONGS </s>
+<s> GO FORWARD TEN TRACKS </s>
+<s> GO BACK TEN TRACKS </s>
+<s> GO TO SONG NUMBER </s>
+<s> GO TO TRACK NUMBER </s>
+<s> REPEAT THE </s>
+<s> REPEAT THE SONG </s>
+<s> REPEAT THE TRACK </s>
+<s> REPEAT THE PLAYLIST </s>
+<s> REPEAT ALL </s>
+<s> REPEAT ALL SONGS </s>
+<s> REPEAT ALL TRACKS </s>
+<s> REPEAT THIS </s>
+<s> REPEAT THIS SONG </s>
+<s> REPEAT THIS TRACK </s>
+<s> REPEAT THIS PLAYLIST </s>
+<s> STOP REPEAT </s>
+<s> STOP REPEATING </s>
+<s> PAUSE THE SONG </s>
+<s> PAUSE THE TRACK </s>
+<s> PAUSE SONG </s>
+<s> PAUSE TRACK </s>
+<s> RANDOM SONG MODE </s>
+<s> SEQUENTIAL SONG MODE </s>
+<s> RAISE THE </s>
+<s> LOWER THE </s>
+<s> RAISE THE VOLUME </s>
+<s> LOWER THE VOLUME </s>
+<s> UP THE </s>
+<s> DOWN THE </s>
+<s> UP THE VOLUME </s>
+<s> DOWN THE VOLUME </s>
+<s> VOLUME UP </s>
+<s> VOLUME DOWN </s>
+<s> DO NOT PLAY </s>
+<s> DO NOT PLAY THIS SONG AGAIN </s>
+<s> DO NOT PLAY THIS TRACK AGAIN </s>
+<s> PLAY THAT </s>
+<s> PLAY THAT SONG AGAIN </s>
+<s> PLAY THAT TRACK AGAIN </s>
+<s> WHAT IS </s>
+<s> WHAT IS THE NAME OF THIS SONG </s>
+<s> WHAT IS THE NAME OF THIS TRACK </s>
+<s> WHAT IS THE NAME OF THIS PLAYLIST </s>
+<s> WHAT IS THE NAME OF THAT SONG </s>
+<s> WHAT IS THE NAME OF THAT TRACK </s>
+<s> WHAT IS THE NAME OF THAT PLAYLIST </s>
+<s> WHAT IS THE NUMBER </s>
+<s> WHAT IS THE NUMBER OF THIS SONG </s>
+<s> WHAT IS THE NUMBER OF THIS TRACK </s>
+<s> WHAT SONG </s>
+<s> WHAT SONG IS THIS </s>
+<s> WHAT SONG AM I ON </s>
+<s> WHAT TRACK </s>
+<s> WHAT TRACK IS THIS </s>
+<s> WHAT TRACK AM I ON </s>
+<s> WHICH SONG </s>
+<s> WHICH TRACK </s>
+<s> WHICH SONG IS THIS </s>
+<s> WHICH TRACK IS THIS </s>
+<s> WHICH TRACK AM I ON </s>
+<s> WHICH SONG AM I ON </s>
+<s> WHO IS THE </s>
+<s> WHO IS THE ARTIST OF THIS SONG </s>
+<s> WHO IS THE ARTIST OF THIS TRACK </s>
+<s> WHO IS THE SONG ARTIST </s>
+<s> WHO IS THE TRACK ARTIST </s>
+<s> WHO PLAYED THE SONG </s>
+<s> WHO PLAYED THE TRACK </s>
+<s> WHO PLAYED THIS SONG </s>
+<s> WHO PLAYED THIS TRACK </s>
+<s> WHO IS PLAYING THIS SONG </s>
+<s> WHO IS PLAYING THIS TRACK </s>
+<s> ARE YOU LISTENING TO ME </s>
+<s> DIAGNOSTIC MODE </s>

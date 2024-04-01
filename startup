@@ -1,0 +1,34 @@
+#!/bin/sh
+###############################################################
+# Project: Turbolift: An application server for voice powered computing
+# Component: Turbolift startup script
+# Description:
+# This shell script starts Turbolift, and all associated
+# services.
+#
+# Current version: 2.0
+# Author: Copyright (c) Rupert Scammell <rupe@sbcglobal.net> 2001-2005
+# Date: 2005-03-18
+##############################################################
+
+ALICE_HOME=/home/alice/alice
+export ALICE_HOME
+
+# Start Festival server (speech synthesis)
+festival_server &
+
+# Start Sphinx2 speech server (speech recognition)
+perl sphinx2-alice &
+
+# Start EDS (event distribution server)
+python $ALICE_HOME/select_ports.py &
+
+# Start LCD client module
+python $ALICE_HOME/lcd_module.py &
+
+# Start Speech I/O client module.
+python $ALICE_HOME/speechio_module.py &
+
+# Start Loader module 
+python $ALICE_HOME/loader_module.py &
+

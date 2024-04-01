@@ -1,0 +1,141 @@
+		                 Turbolift
+		  An application server for voice powered computing
+				Version 2.0
+			        March 2005
+
+		    Info: http://hobbiton.thisside.net/turbolift
+		   Builds: http://arrow.yak.net/turbolift/builds
+		 CVSWeb: http://arrow.yak.net/cgi-bin/cvsweb.cgi/alice
+
+		(C) 2001-2005 Rupert Scammell <rupe@sbcglobal.net>
+
+		 Distributed under the GNU General Public License
+		 with the exception of Modules/pyCFontz.py, which 
+		 is distributed under the GNU Lesser General Public
+		                 License.
+-------------------------------------------------------------------------------
+
+
+I. Introduction
+
+Turbolift (formerly ALICE) is a modular application server that allows easy 
+development of voice controlled and speech capable applications.  Support for 
+speech recognition, speech synthesis, and external LCD screen output is provided 
+in this release.
+
+A voice controlled MP3 player module is provided in this release as a proof of
+concept application.
+
+This version contains the following components:
+
+select_ports.py - Event distribution server
+lcd_module.py - LCD module for the control of a CrystalFontz 634 LCD screen
+speechio_module.py - Speech input/output module
+mp3_module.py - MP3 player module
+
+Full information regarding the structure and operation of Turbolift is contained
+within the development guide - Docs/HACKING.  The schematic, Docs/turbolift_sc.jpg
+provides a graphical overview of what interconnections exist between modules
+when Turbolift is operational.
+
+
+II. Getting Turbolift running
+
+To function correctly, Turbolift requires that a full duplex capable soundcard
+and sound card drivers that support full duplex be installed.  For users running
+Linux, sound drivers from the ALSA Project (http://www.alsa-project.org) 
+generally tend to work better than the default sound modules provided within 
+the Linux kernel. YMMV.
+
+Recommended hardware -
+
+* Stereo speakers
+* A decent microphone
+* A CrystalFontz 634 LCD (http://www.crystalfontz.com).  The MP3 module makes
+heavy use of this, and while the app will run fine without it, it makes 
+playing and navigating your collection of MP3s a great deal easier...)
+* 400 Mhz or greater Pentium processor (or equivalent on other architectures)
+* Full duplex sound card
+* Python 2.1+ with pthreads support compiled in.
+* TCP/IP support
+
+
+1. Copy or symlink the files in the Modules directory to your Python library 
+directory (typically /usr/local/lib/python2.1, or something similar).
+
+2. Change $s2root and $alice_root in the sphinx2-alice executable to point to 
+the location of your Sphinx2 installation, and the ALICE directory root, 
+respectively.  
+
+3. Verify that Sphinx2 and Festival are installed correctly, and that the 
+festival and festival_server binaries are in your path.
+
+4. Verify that Python 2.1+ is installed, and in your path.
+
+5. Verify that Perl 5 is installed, and in your path.
+(This dependency will vanish soon).
+
+6. Review configuration settings in Config/alice.config . It is recommended 
+that you disable logging to file if running the product in a non-test environment
+, since output tends to be extremely verbose.
+
+7. Hook up your LCD screen, attach speakers, plug in microphone...
+
+8. To start Turbolift, type ./startup in the Turbolift directory.  This 
+will enable all necessary services, and start both the Festival and 
+Sphinx2 servers automatically.
+
+9. Try speaking one of the commands in Section III.
+
+III. Using Turbolift
+
+Once the software is started, the speech interface can be used to control the 
+MP3 player sample application that Turbolift is loaded with.  Some of the commands
+that you can use are:
+
+"Play this song"			Plays the currently selected song.
+
+"Stop playing"				Stops the current song from playing.
+
+"Go to the next song"			Goes to the next song in the playlist.
+
+"Go to the previous song"		Goes to the previous song in the playlist.
+
+"Go to the first song"			Goes to the first song in the playlist.
+
+"Go to the last song"			Goes to the last song in the playlist.
+
+"Go forward ten songs"			Moves ten songs forward in the playlist.
+
+"Go back ten songs"			Moves ten songs back in the playlist
+
+"Go to song xxx"			Go to the song number xxx in the playlist,
+					where xxx represents the digit value of
+					the song, e.g. 'ONE FOUR FIVE' for song
+					number 145.
+
+"What is the name of this song?"	Speaks the name of the song that's
+					currently selected.
+
+"What is the number of this song?"	Speaks the number of the currently 
+					selected song in the playlist.
+
+"Who is the song artist?"		Speaks the name of the song artist, if
+					it's available
+
+"Raise the volume"			Increases the volume of the audio output
+
+"Lower the volume"			Lowers the volume of the audio output
+
+"Mute the volume" / "Be quiet"		Silences audio output.
+
+"Unmute the volume"			Restores audio output to the level it
+					was previously at.
+
+"Are you listening to me?"		Generates a spoken response from the speech
+					module, confirming that speech processing
+					is functional.
+
+Additional phrase combinations for each of these commands are also supported.
+Consult the Config/alice.bind file for a complete list of currently implemented
+commands.

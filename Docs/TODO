@@ -1,0 +1,47 @@
+alice-1.00b
+January, 2002.
+
+Things that need to be done...
+
+* Expand and revise currently included language model.
+The current language model (in Config/lm/) is just a placeholder
+that gets basic commands in place.  
+
+* Fix mp3_module next/previous song scroll bug.  We don't currently
+re-window the playlist correctly.  The whole concept of windowing,
+i.e. having a start song, end song, and selected song needs to go
+away, since it's a carryover from an earlier piece of code that
+mp3_module was based on.  
+
+* Clean up the bottom half of the speechio_module event loop.
+Functional, but very messy.
+
+* Make Modules/speechrule.py conform.  It doesn't currently read options
+from the config file, or follow correct guidelines for log output.
+
+* Add ability to retrieve song by 'track' number in playlist, via a 
+command like 'Go to song one four six' , or 'Play song one four six'...
+
+* Scan ID3 tags of all MP3s in playlist on app startup, and do a rebuild
+of the LM on the fly, so it includes song / artist names in the vocabulary.
+Necessary for the next item.
+
+* Allow retrieval of song by artist and song name:
+i.e. 'Play me the song Bookends by Simon and Garfunkel'
+
+* Expand the flexibility of the current speech text recognition and binding
+process.  Ideally, speech text entries in alice.bind should be regular 
+expression strings that we can iterate through and test for a match when 
+a speech text input occurs.  This would allow dynamic info to be included
+in speech (i.e. song / artist names).  Currently only static speech is 
+supported.
+
+* Make the app easier to shut down.  Currently ./startup spawns programs
+which have children, which necessitates going through the process list and
+manually killing things.  Not really a priority on production boxes, though.
+
+* Remove Perl dependency (which exists via the sphinx2-alice script that gets
+speech recognition going.  Can probably be ported to Python.)
+
+
+

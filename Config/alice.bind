@@ -1,0 +1,181 @@
+##############################################################
+# Project: Turbolift - An application server for voice powered computing
+#
+# Component: Turbolift speech / command binding file 
+# Description:
+# The alice.bind file contains bindings between recognized speech
+# text (that resides within the context of a Sphinx Language Model),
+# and commands that should be executed in response to said speech.
+# Lines in the file have the general format ---
+# speech_text	; module_name: module_command (1) ... (N)
+# "matching_regex" is the regular expression to match against speech.
+# "module_name" is the name of the handler module
+# "module_command" is the event to be passed to "module_name"
+# (1) ... (n) are parentheses enclosed, space delimited variable substitution
+# points, for dynamic data, such as song numbers, names, etc.
+# This substitution is performed after retrieval from this file, and the
+# data will be passed along with the event.
+# See Docs/HACKING, Sec. 5 for additional information.
+#  
+# Current version: 2.0
+# Author: (C) 2001-2005 Rupert Scammell <rupe@sbcglobal.net>
+# Date: 2005-03-21
+###############################################################
+
+# MP3 player module start/stop
+^TURN ON THE EMM PEE THREE PLAYER$ 	; loader_module: start_module mp3_module
+^TURN OFF THE EMM PEE THREE PLAYER$ 	; mp3_module: quit
+^TURN ON THE STEREO$ 			; loader_module: start_module mp3_module
+^TURN OFF THE STEREO$ 			; mp3_module: quit
+^TURN ON THE RADIO$ 			; loader_module: start_module mp3_module
+^TURN OFF THE RADIO$ 			; mp3_module: quit
+^START THE EMM PEE THREE PLAYER$	; loader_module: start_module
+^STOP THE EMM PEE THREE PLAYER$		; mp3_module: quit
+^STARTUP THE EMM PEE THREE PLAYER$	; loader_module: start_module mp3_module
+^SHUTDOWN THE EMM PEE THREE PLAYER$	; mp3_module: quit
+
+# MP3 player module general commands
+^PLAY A RANDOM SONG$			; mp3_module: play_random_song
+^PLAY$					; mp3_module: play_current_song
+^PLAY THIS$				; mp3_module: play_current_song
+^PLAY THIS SONG$			; mp3_module: play_current_song
+^PLAY THIS TRACK$			; mp3_module: play_current_song
+^PLAY THAT$				; mp3_module: play_current_song
+^PLAY THAT SONG$			; mp3_module: play_current_song
+^PLAY THAT TRACK$			; mp3_module: play_current_song
+^STOP PLAYING$				; mp3_module: stop_play
+^STOP PLAYING THIS SONG$		; mp3_module: stop_play
+^STOP PLAYING THIS TRACK$		; mp3_module: stop_play
+^STOP$					; mp3_module: stop_play
+^NEXT$					; mp3_module: go_next_song
+^NEXT SONG$				; mp3_module: go_next_song
+^PREVIOUS$				; mp3_module: go_prev_song
+^PREVIOUS SONG$				; mp3_module: go_prev_song
+^LAST$					; mp3_module: go_last_song
+^LAST SONG$				; mp3_module: go_last_song
+^FIRST$					; mp3_module: go_first_song
+^FIRST SONG$				: mp3_module: go_first_song
+^NEXT TRACK$				; mp3_module: go_next_song
+^PREVIOUS TRACK$			; mp3_module: go_prev_song
+^LAST TRACK$				; mp3_module: go_last_song
+^FIRST TRACK$				; mp3_module: go_first_song
+^PLAY THE NEXT SONG$			; mp3_module: go_next_song, play_current_song
+^PLAY THE PREVIOUS SONG$		; mp3_module: go_prev_song, play_current_song
+^PLAY THE FIRST SONG$			; mp3_module: go_first_song, play_current_song
+^PLAY THE LAST SONG$			; mp3_module: go_last_song, play_current_song
+^PLAY THE NEXT TRACK$			; mp3_module: go_next_song, play_current_song
+^PLAY THE PREVIOUS TRACK$		; mp3_module: go_prev_song, play_current_song
+^PLAY THE FIRST TRACK$			; mp3_module: go_first_song, play_current_song
+^PLAY THE LAST TRACK$			; mp3_module: go_last_song, play_current_song
+^GO TO THE NEXT SONG$			; mp3_module: go_next_song
+^GO TO THE PREVIOUS SONG$		; mp3_module: go_prev_song
+^GO TO THE FIRST SONG$			; mp3_module: go_first_song
+^GO TO THE LAST SONG$			; mp3_module: go_last_song
+^GO TO THE NEXT TRACK$			; mp3_module: go_next_song
+^GO TO THE PREVIOUS TRACK$		; mp3_module: go_prev_song
+^GO TO THE FIRST TRACK$			; mp3_module: go_first_song
+^GO TO THE LAST TRACK$			; mp3_module: go_last_song
+^GO TO NEXT SONG$			; mp3_module: go_next_song
+^GO TO PREVIOUS SONG$			; mp3_module: go_prev_song
+^GO TO FIRST SONG$			; mp3_module: go_first_song
+^GO TO LAST SONG$			; mp3_module: go_last_song
+^GO FORWARD TEN SONGS$			; mp3_module: go_forward_10
+^GO BACK TEN SONGS$			; mp3_module: go_back_10
+^GO FORWARD TEN TRACKS$			; mp3_module: go_forward_10
+^GO BACK TEN TRACKS$			; mp3_module: go_back_10
+^REPEAT THE SONG$			; mp3_module: repeat_song
+^REPEAT THE TRACK$			; mp3_module: repeat_song
+^REPEAT THE PLAYLIST$			; mp3_module: repeat_playlist
+^REPEAT ALL$				; mp3_module: repeat_playlist
+^REPEAT ALL SONGS$			; mp3_module: repeat_playlist
+^REPEAT ALL TRACKS$			; mp3_module: repeat_playlist
+^REPEAT THIS$				; mp3_module: repeat_song
+^REPEAT THIS SONG$			; mp3_module: repeat_song
+^REPEAT THIS TRACK$			; mp3_module: repeat_song
+^REPEAT THIS PLAYLIST$			; mp3_module: repeat_playlist
+^STOP REPEAT$				; mp3_module: repeat_off
+^STOP REPEATING$			; mp3_module: repeat_off
+^PAUSE THE SONG$			; mp3_module: pause
+^PAUSE THE TRACK$			; mp3_module: pause
+^PAUSE SONG$				; mp3_module: pause
+^PAUSE TRACK$				; mp3_module: pause
+^RANDOM SONG MODE$			; mp3_module: random_mode
+^RANDOM MODE$				; mp3_module: random_mode
+^SEQUENTIAL SONG MODE$			; mp3_module: sequential_mode
+^SEQUENTIAL MODE$			; mp3_module: sequential_mode
+^UP VOLUME$				; mp3_module: up_volume
+^DOWN VOLUME$				; mp3_module: down_volume	
+^RAISE THE VOLUME$			; mp3_module: up_volume
+^LOWER THE VOLUME$			; mp3_module: down_volume
+^UP THE VOLUME$				; mp3_module: up_volume
+^DOWN THE VOLUME$			; mp3_module: down_volume
+^VOLUME UP$				: mp3_module: up_volume
+^VOLUME DOWN$				; mp3_module: down_volume
+^DO NOT PLAY THIS SONG AGAIN$		; mp3_module: dnp_song
+^DO NOT PLAY THIS TRACK AGAIN$		; mp3_module: dnp_song
+^DO NOT PLAY THIS AGAIN$		; mp3_module: dnp_song
+^DO NOT PLAY THAT AGAIN$		; mp3_module: dnp_song
+^DO NOT PLAY AGAIN$			; mp3_module: dnp_song
+^REMOVE THIS FROM THE PLAYLIST$		; mp3_module: dnp_song
+^REMOVE FROM PLAYLIST$			; mp3_module: dnp_song
+^REMOVE THIS$				; mp3_module: dnp_song
+^PLAY THAT$				; mp3_module: play_current_song
+^PLAY THAT SONG AGAIN$			; mp3_module: play_current_song
+^PLAY THAT TRACK AGAIN$			; mp3_module: play_current_song
+^WHAT IS THE NAME OF THIS SONG$		; mp3_module: say_song_name
+^WHAT IS THE NAME OF THIS TRACK$	; mp3_module: say_song_name
+^WHAT IS THE NAME OF THIS PLAYLIST$	; mp3_module: say_playlist_name
+^WHAT IS THE NAME OF THAT SONG$		; mp3_module: say_song_name
+^WHAT IS THE NAME OF THAT TRACK$	; mp3_module: say_playlist_name
+^WHAT IS THE NAME OF THAY PLAYLIST$	; mp3_module: say_song_number
+^WHAT IS THE NUMBER OF THIS SONG$	; mp3_module: say_song_number
+^WHAT IS THE NUMBER OF THIS TRACK$	; mp3_module: say_song_number
+^WHAT SONG IS THIS$			; mp3_module: say_song_name
+^WHAT SONG AM I ON$			; mp3_module: say_song_number, say_song_name
+^WHAT TRACK IS THIS$			; mp3_module: say_song_number
+^WHAT TRACK AM I ON$			; mp3_module: say_song_number
+^WHICH SONG IS THIS$			; mp3_module: say_song_name
+^WHICH TRACK IS THIS$			; mp3_module: say_song_name
+^WHICH TRACK AM I ON$			; mp3_module: say_song_name
+^WHICH SONG AM I ON$			; mp3_module: say_song_name
+^WHO IS THE ARTIST OF THIS SONG$	; mp3_module: say_song_artist
+^WHO IS THE ARTIST OF THIS TRACK$	; mp3_module: say_song_artist
+^WHO IS THE SONG ARTIST$		; mp3_module: say_song_artist
+^WHO IS THE TRACK ARTIST$		; mp3_module: say_song_artist
+^WHO PLAYED THE SONG$			; mp3_module: say_song_artist
+^WHO PLAYED THE TRACK$			; mp3_module: say_song_artist
+^WHO PLAYED THIS SONG$			; mp3_module: say_song_artist
+^WHO PLAYED THIS TRACK$			; mp3_module: say_song_artist
+^WHO IS PLAYING THIS SONG$		; mp3_module: say_song_artist
+^WHO IS PLAYING THIS TRACK$		; mp3_module: say_song_artist
+^GO TO TRACK NUMBER (.+)$		; mp3_module: go_to_song (1)
+^GO TO SONG NUMBER (.+)$		; mp3_module: go_to_song (1)
+^GO TO TRACK (.+)$			; mp3_module: go_to_song (1)
+^GO TO SONG (.+)$			; mp3_module: go_to_song (1)
+^GO SONG (.+)$				; mp3_module: go_to_song (1)
+^GO TRACK (.+)$				; mp3_module: go_to_song (1)
+^TRACK (.+)$				; mp3_module: go_to_song (1)
+^SONG (.+)$				; mp3_module: go_to_song (1)
+^ARE YOU LISTENING TO ME$		; speechio_module: soundcheck
+^SET THE VOLUME LEVEL TO (.+)$		; mp3_module: set_volume (1)
+^SET THE VOLUME TO (.+)$		; mp3_module: set_volume (1)
+^SET VOLUME TO (.+)$			; mp3_module: set_volume (1)
+^SET VOLUME (.+)$			; mp3_module: set_volume (1)
+^VOLUME TO (.+)$			; mp3_module: set_volume (1)
+^CHANGE VOLUME LEVEL TO (.+)$		; mp3_module: set_volume (1)
+^CHANGE VOLUME TO (.+)$			; mp3_module: set_volume (1)
+^MAKE THE VOLUME LEVEL (.+)$		; mp3_module: set_volume (1)
+^MAKE THE VOLUME (.+)$			; mp3_module: set_volume (1)
+^MUTE THE VOLUME$			; mp3_module: mute_volume
+^MUTE VOLUME$				; mp3_module: mute_volume
+^MUTE SOUND$				; mp3_module: mute_volume
+^UNMUTE THE VOLUME$			; mp3_module: unmute_volume
+^UNMUTE VOLUME$				; mp3_module: unmute_volume
+^UNMUTE SOUND$				; mp3_module: unmute_volume
+^BE QUIET$				; mp3_module: mute_volume
+^LOAD PLAYLIST (.+)$			; mp3_module: load_playlist (1)
+^GO TO PLAYLIST (.+)$			; mp3_module: load_playlist (1)
+^CHANGE TO PLAYLIST (.+)$		; mp3_module: load_playlist (1)
+^SWITCH TO PLAYLIST (.+)$		; mp3_module: load_playlist (1)
+^PLAYLIST (.+)$				; mp3_module: load_playlist (1)
+
